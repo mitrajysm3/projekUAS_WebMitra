@@ -5,17 +5,18 @@
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			warna {
+			height:65px;padding:16px;width:100%;
+			background-color:"skyblue";
+			}
+		</style>
 </head>
 <body>
 <br>
 <div class="container">
   <div class="panel panel-default">
-  <style>
-	warna {
-	height:65px;padding:16px;width:100%;
-	background-color:"skyblue";
-	}
-</style>
+  
 <div class="warna">
     <div class="panel-heading"><h2>Ubah Data</h2></div>
 	</div>
