@@ -11,9 +11,12 @@
 <div class="container">
   <div class="panel panel-default">
   <style>
-div {height:65px;padding:16px;width:100%;}
+	warna {
+	height:65px;padding:16px;width:100%;
+	background-color:"skyblue";
+	}
 </style>
-<div style="background-color:skyblue">
+<div class="warna">
     <div class="panel-heading"><h2>Ubah Data</h2></div>
 	</div>
 	<hr>
