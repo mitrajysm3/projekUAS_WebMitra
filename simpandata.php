@@ -12,7 +12,7 @@
 		<?php
 		$server = "localhost";
 		$username = "id6084935_uaswebpro";
-		$password = "mitrajayusman31";
+		$password = "mitra31";
 		$db = "id6084935_uaswebpro";
 
 		$koneksi = new mysqli($server, $username, $password, $db);
