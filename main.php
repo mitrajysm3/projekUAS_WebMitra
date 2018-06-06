@@ -1,10 +1,10 @@
-<html !DOCTYPE>
+<!DOCTYPE html>
 <head>
 	<title> Data Mahasiswa </title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>         
   <div class="row">
@@ -17,20 +17,18 @@ div {height:80px;padding:20px;width:100%;}
 <h2><i class="fa fa-users"></i> Aplikasi Data Mahasiswa</h2>
 </div>  
 <hr>
-            <a href="input.php" class="btn btn-success"><i class="fa fa-plus"></i> Tambah Data</a>
-            <br><br>
-            <table class="table table-striped table-bordered table-hover" id="tb-mahasiswa">            
-            
+    <a href="input.php" class="btn btn-success"><i class="fa fa-plus"></i> Tambah Data</a>
+    <br><br>
+    <table class="table table-striped table-bordered table-hover" id="tb-mahasiswa">                      
     <thead>
-	<table border="1">
       <tr>
-        <th>NIM</th>
-        <th>NAMA</th>
-		<th>JENIS KELAMIN</th>
-        <th>JURUSAN</th>
-		<th>SEMESTER</th>
-        <th>ALAMAT</th>
-		<th>PILIHAN</th>
+        <th class="text-center">NIM</th>
+        <th class="text-center">NAMA</th>
+		<th class="text-center">JENIS KELAMIN</th>
+        <th class="text-center">JURUSAN</th>
+		<th class="text-center">SEMESTER</th>
+        <th class="text-center">ALAMAT</th>
+		<th class="text-center">PILIHAN</th>
       </tr>
     </thead>
     <tbody>
