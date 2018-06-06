@@ -1,0 +1,15 @@
+{
+    "name": "mitrajysm3/uas_webpro", 
+    "type": "project",
+    "authors": [
+        {
+            "name": "mitra",
+            "email": "mitrajysm@gmail.com",
+            "role": "programmer"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "version": "0.5"
+}
