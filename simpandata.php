@@ -11,9 +11,9 @@
 	<div class="container-fluid">
 		<?php
 		$server = "localhost";
-		$username = "mitra31";
-		$password = "uaswebpro";
-		$db = "webproUAS";
+		$username = "id6084935_uaswebpro";
+		$password = "mitrajayusman31";
+		$db = "id6084935_uaswebpro";
 
 		$koneksi = new mysqli($server, $username, $password, $db);
 		if($koneksi->connect_error) {

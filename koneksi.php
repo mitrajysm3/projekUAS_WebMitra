@@ -1,9 +1,9 @@
 <?php
 class koneksi {
    private $server = "localhost";
-   private $username = "uaswebpro";
-   private $password = "mitra31";
-   private $db = "webproUAS";
+   private $username = "id6084935_uaswebpro";
+   private $password = "mitrajayusman31";
+   private $db = "id6084935_uaswebpro";
 
     function getKoneksi() {
         return new mysqli($this->server, $this->username,$this->password,$this->db);
