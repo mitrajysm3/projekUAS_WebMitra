@@ -1,8 +1,8 @@
 <?php
 class koneksi {
    private $server = "localhost";
-   private $username = "root";
-   private $password = "";
+   private $username = "uaswebpro";
+   private $password = "mitra31";
    private $db = "webproUAS";
 
     function getKoneksi() {
